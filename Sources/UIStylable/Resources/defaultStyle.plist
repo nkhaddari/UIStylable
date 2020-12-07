@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>componentType</key>
+		<string>Label</string>
+		<key>backgroundColor</key>
+		<string>#FFFFFF</string>
+		<key>textColor</key>
+		<string>#FF7F00</string>
+		<key>borderColor</key>
+		<string>#FFFFFF</string>
+		<key>borderWidth</key>
+		<integer>1</integer>
+		<key>cornerRadius</key>
+		<integer>0</integer>
+		<key>isBold</key>
+		<true/>
+		<key>fontName</key>
+		<string>Arial</string>
+		<key>fontSize</key>
+		<integer>30</integer>
+	</dict>
+	<key>subtitleLabel</key>
+	<dict>
+		<key>componentType</key>
+		<string>Label</string>
+		<key>backgroundColor</key>
+		<string>#FFFFFF</string>
+		<key>textColor</key>
+		<string>#616161</string>
+		<key>borderColor</key>
+		<string>#FFFFFF</string>
+		<key>borderWidth</key>
+		<integer>1</integer>
+		<key>cornerRadius</key>
+		<integer>0</integer>
+		<key>isBold</key>
+		<false/>
+		<key>fontName</key>
+		<string>Arial</string>
+		<key>fontSize</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>
