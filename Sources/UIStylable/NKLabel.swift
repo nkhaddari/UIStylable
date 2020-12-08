@@ -8,13 +8,13 @@
 import UIKit
 
 @IBDesignable
-class NKLabel: UILabel, UIStylable {
+open class NKLabel: UILabel, UIStylable {
     
     @IBInspectable
     open var styleName: String! {
         didSet {
             if oldValue == nil || oldValue != styleName {
-                readStyle()
+                loadStyle()
             }
         }
     }
@@ -51,7 +51,7 @@ class NKLabel: UILabel, UIStylable {
         }
     }
     
-    func readStyle() {
+    func loadStyle() {
         if let style = StyleManager.shared.find(byName: styleName) as? LabelStyle {
             initProperties(withStyle: style)
         } else {
