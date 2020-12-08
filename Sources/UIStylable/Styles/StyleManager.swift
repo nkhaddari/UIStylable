@@ -31,7 +31,7 @@ public class StyleManager {
         }
         for (key, properties) in rawStyles {
             guard let componentType =  properties["componentType"] as? String,
-                  let type = ComponentType(rawValue: componentType) else {
+                  let type = ComponentType(rawValue: componentType.lowercased()) else {
                 break
             }
             switch type {
